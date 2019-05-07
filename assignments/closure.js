@@ -9,9 +9,15 @@ console.log(whatIsMyName());
 
 
 // ==== Challenge 2: Create a counter function ====
+let count = 0;
 const counter = () => {
   // Return a function that when invoked increments and returns a counter variable.
+  count += 1
 };
+counter();
+counter();
+counter();
+console.log(count)
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2
