@@ -28,3 +28,7 @@ const counterFactory = () => {
   // `increment` should increment a counter variable in closure scope and return it.
   // `decrement` should decrement the counter variable and return it.
 };
+
+let helloWorld = function () {
+  console.log("Hello World!");
+}();
